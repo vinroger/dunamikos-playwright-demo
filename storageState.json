@@ -1,18 +1,28 @@
 {
   "cookies": [
     {
-      "name": "_zendesk_shared_session",
-      "value": "-ZHRrT2VSMS9VakVST21ZZFlHRHU3NG9RWDJ0OXllR2FIRzlEVjl5SnBoaythc1dIWm1ERDN2ckRrbHh5eUNqR2QxR29OM3VGMmo0T3JWREcwSzJNbExLb2dURkNFSlBvbGs1YU5ITkx6MFA0RTUwaTRyWHlNOUtYanNQS2NIc2lkSEJMa0pYOTlERGFPZHV2MlFNWVNRPT0tLWtuM0dYYUNrdUQzTjd3aVVZT3VhMFE9PQ%3D%3D--09d073c257a74e93774f0ad7f61b5929e74bcd9e",
+      "name": "wsid",
+      "value": "7fU0ZBpKj007SjoQkoeeEWod",
       "domain": "dunamikoslab.zendesk.com",
-      "path": "/",
+      "path": "/message",
       "expires": -1,
-      "httpOnly": true,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "wsid",
+      "value": "7fU0ZBpKj007SjoQkoeeEWod",
+      "domain": "dunamikoslab.zendesk.com",
+      "path": "/chat",
+      "expires": -1,
+      "httpOnly": false,
       "secure": true,
       "sameSite": "None"
     },
     {
       "name": "__cfruid",
-      "value": "9fe7f21cf82b5e1fbf53361f4feb35f9256d6b00-1672823522",
+      "value": "48e8323e3436ffbd990e7ea7adcccd97ed0e9aa5-1674471462",
       "domain": ".dunamikoslab.zendesk.com",
       "path": "/",
       "expires": -1,
@@ -21,8 +31,48 @@
       "sameSite": "None"
     },
     {
+      "name": "__cf_bm",
+      "value": "cvAIQQSsiBzEgol9292T.PWK7pzMjdPio8tMjPlMlpo-1674471464-0-AcnUv7mSo4mKpVqj89PvNk9t46CsOK2XfHPVqQZV3iUEDO9uFh0QwoE2cM/j0FpZ1zC8I2OHtKfvD3FUic/vFoFNKX3xV5B4iEwIVsWFkvbhUvXdzaP5v5UhkrZA4Yq+E1b6MDN9U6X6eVWa6OI923o=",
+      "domain": ".dunamikoslab.zendesk.com",
+      "path": "/",
+      "expires": 1674473264.482407,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "_zendesk_shared_session",
+      "value": "-U3p5TVEvcHFLUEJIUUhZMy9QVDd0UnMyZnhBT3M5OTBrOEtvVjc5dmdMS3RoODl0dlFycmRwRjRBRENnT2lCVDhlOUFMRjl1TzFpcUFLNGUyajZ3L1UxYXZyclNDSDhJZEtNcFZXc1ZFS3phbmtjYzFDb0pZTEdmWEVzRG1keEgtLWFOeVRxWkttRkpDMUJZN1hOazdwVlE9PQ%3D%3D--f6987de29c4ad62012b33e4d29dbd70173d380cb",
+      "domain": "dunamikoslab.zendesk.com",
+      "path": "/",
+      "expires": 1674500264.767633,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "_zendesk_authenticated",
+      "value": "1",
+      "domain": "dunamikoslab.zendesk.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "_zendesk_cookie",
+      "value": "BAhJIkx7ImRldmljZV90b2tlbnMiOnsiMTQxODcxNjQ4Njg1MDUiOiJWYlR1RmdlYXI0c3pwUHJoWFNvQXYxenQzRGw3UVlGVCJ9fQY6BkVU--328faf71fe6ddeaff84d50b5bd38c245bcbba396",
+      "domain": "dunamikoslab.zendesk.com",
+      "path": "/",
+      "expires": 1705972036.767703,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
       "name": "_zendesk_session",
-      "value": "OTlRWDRPc05sTndOOUpvZzl3Y2V5L3RKWEpidFJmWit2VXZmS2xmWGNMUXpCK1hlaHlBNGFJUmZzSC8zeUJENUpPRml3VEx1KzQ4cHpIb1ZUbnZWaHlOL1NmZWF4Qkcvd0Fkc1dGK2NZWHM4QXJvQS9qdmtZK3JuZGR6K2lMRHFFVnY1RmM0MHB2STlTeEhGdzZwZmZVcXljVU1zL29zbm80QmpOV0t1M0VRQitaNW9KRVlNeXJtOGZpVWdxYm4xNUZ6b2dzUGdKZjEyZ3k0MmFOTTRTZ2l0T29kT0gyK21mcEtjUlk0d1p6QT0tLWNGR25zTll4ZFVMMVI3ejdoT2tSOEE9PQ%3D%3D--52ec61d0c8cbf1958ae8697697a682ad0164d77e",
+      "value": "dUVkUVhCZU12Y1hRM2dZWHpjMVpwMWEzWEExaXYvQmd4a0czajdvTlc1RXNrZkRFWEZaQWdzMVBudDZ3S0tpdVhkMWFCcE1jUThyeU9FMFpLZG9rV2hBNHE1TDRuRHFUYmVxb0NWR0RWR2kzYmFqamtvQVhBbUNlaVpaajBQeS9lTGxwZzRrN3d4TnBTMVZPQmVKbkx2cGxLTlg1Y2xiWUFaUzFTc3RiL1JFdmcwM0I1N0NHZHZ5Z0I0clJwVDlkRDJvcWttTUgwNm1LRkR2VXZDMU9GRXQ2OFBmUDliczBYcXJZbWk5eDBEQT0tLUFKbGdsSEEzbWFsb2xYeEZ5WDUvN3c9PQ%3D%3D--613ef805df56364130531ed0be4f354665c8d589",
       "domain": "dunamikoslab.zendesk.com",
       "path": "/",
       "expires": -1,

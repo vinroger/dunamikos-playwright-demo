@@ -27,4 +27,6 @@ test('test', async ({ page }) => {
       'WidgetEmbed and customize the widget on your website.Manage widget'
     )
     .click();
+
+    await expect(page.locator('.Well-zk7a8s-0')).toHaveCount(4);
 });
